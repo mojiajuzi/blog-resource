@@ -8,14 +8,13 @@ tags: ["Laravel"]
 
 1. 定义事件与事件监听器, 在`App\Providers\EventServiceProvider.php`类的$listen中定义事件与事件监听者的关系
 
-    {{< highlight php>}}
-    <?php
+    ```php
         protected $listen = [
             'App\Events\HappybirdEvent' => [
                 'App\Listeners\HappybirdListener',
             ],
         ];
-    {{< /highlight>}}
+    ```
 
 1. 创建事件和事件监听器, 在终端中执行artisan命令来创建
 
