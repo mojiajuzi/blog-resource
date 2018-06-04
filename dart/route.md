@@ -27,15 +27,21 @@ draft: true
     );
     ```
 
-1. TransitionRoute
+1. 直接在组件中定义
+  ```dart
+      body: new Center(
+        child: new RaisedButton(
+          child: new Text('Launch new screen'),
+          onPressed: () {
+            Navigator.of(context).push(
+                  new MaterialPageRoute(builder: (context) => new SecondPage()),
+                );
+          },
+        ),
+      ),
+```
+
+对于作为属性的的路由来说,其缺乏传递参数的能力,对于直接在组件中定义的路由而言,对于其管理又存在一些不便
 
 
-1. ModalRoute
-
-
-1. MaterialPageRoute(动画基于特定的平台，也就是说不同的平台动画效果可能不一样)
-
-
-1. PopupRoute
-
-1. PageRoute
+#### 参数传递
