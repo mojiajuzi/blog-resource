@@ -50,7 +50,9 @@ function sum(array $arr): int {
 因此，我们需要找出快速排序的基线条件以及递归条件,结束递归的条件就是数组为空，或者数组只有一个元素，那么这个时候，该数组是不需要进行排序的
 
 ```php
-function fastSort(array $arr){
+<?php
+
+function fastSort(array $arr):array{
 
     // 基线条件
     if(count($arr) < 2)
@@ -63,6 +65,7 @@ function fastSort(array $arr){
     $greeterArr = [];
 
     foreach ($arr as $key => $value) {
+        
          if($key == 0)
             continue;
         
