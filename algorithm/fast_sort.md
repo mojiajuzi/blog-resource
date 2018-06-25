@@ -22,6 +22,7 @@ draft: true
 因此实现方式如下:
 
 ```php
+<?php
 function sum(array $arr): int {
     $arrCount = count($arr);
 
@@ -65,7 +66,7 @@ function fastSort(array $arr):array{
     $greeterArr = [];
 
     foreach ($arr as $key => $value) {
-        
+
          if($key == 0)
             continue;
         
