@@ -1,5 +1,5 @@
 ---
-title: "beanstalkd的使用-基本概念"
+title: "beanstalkd-基本概念"
 date: 2018-06-22T17:13:23+08:00
 draft: true
 ---

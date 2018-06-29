@@ -1,5 +1,5 @@
 ---
-title: "beanstalkd的使用-协议"
+title: "beanstalkd-协议"
 date: 2018-06-26T12:06:38+08:00
 draft: true
 ---

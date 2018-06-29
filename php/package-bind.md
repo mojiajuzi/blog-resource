@@ -1,5 +1,5 @@
 ---
-title: "Laravle 包编写(二)-服务提供者"
+title: "Laravel 包编写(二)-服务提供者"
 date: 2018-06-29T10:31:29+08:00
 draft: true
 ---

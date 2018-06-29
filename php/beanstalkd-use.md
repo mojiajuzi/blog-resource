@@ -1,5 +1,5 @@
 ---
-title: "beanstalkd 的使用"
+title: "beanstalkd-Laravel Queue"
 date: 2018-06-26T15:54:40+08:00
 draft: true
 ---
